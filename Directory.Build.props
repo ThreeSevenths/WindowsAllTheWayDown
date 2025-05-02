@@ -1,0 +1,8 @@
+<Project>
+    <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+        <PublishAot>true</PublishAot>
+        <Optimize>true</Optimize>
+        <OptimizationPreference>Size</OptimizationPreference>
+        <PublishTrimmed>true</PublishTrimmed>
+    </PropertyGroup>
+</Project>

@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>False</UseWindowsForms>
+    <UseWPF>False</UseWPF>
+    <UseWinUI>False</UseWinUI>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Vanara.PInvoke.ComCtl32" Version="4.1.3" />
+    <PackageReference Include="Vanara.PInvoke.DwmApi" Version="4.1.3" />
+    <PackageReference Include="Vanara.PInvoke.Gdi32" Version="4.1.3" />
+    <PackageReference Include="Vanara.PInvoke.Kernel32" Version="4.1.3" />
+    <PackageReference Include="Vanara.PInvoke.Shell32" Version="4.1.3" />
+    <PackageReference Include="Vanara.PInvoke.User32" Version="4.1.3" />
+    <PackageReference Include="Vanara.PInvoke.UxTheme" Version="4.1.3" />
+    <PackageReference Include="Vanara.Windows.Shell" Version="4.1.3" />
+  </ItemGroup>
+
+
+</Project>
