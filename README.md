@@ -1,6 +1,6 @@
 # Windows All The Way Down
 
-License: MIT [License.txt](license.txt)
+License: MIT [LICENSE.txt](LICENSE.txt)
 
 A fun romp into legacy Windows API using Vanara and modern .NET.
 
